@@ -143,3 +143,32 @@ ul.header-links {
     padding-top: -40px;
     margin-top: -40px;
 }
+
+.container-3 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 80px 240px;
+    gap: 160px;
+    background-color: #3882f6;
+    border-radius: 25px;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+}
+
+.sign-up-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    margin-top: 40px;
+    border-radius: 10%;
+    border: 2px solid #F9FAF8;
+    border-color: #E5E7EB;
+    background-color: #3882f6;
+}
+
