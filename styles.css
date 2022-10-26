@@ -8,7 +8,7 @@ a {
     color: #E5E7EB;
   }
 
-.header {
+header {
     font-size: 24px;
     font-weight: bolder;
     display: flex;
@@ -19,6 +19,14 @@ a {
     color: #F9FAF8;
     padding-left: 240px;
     padding-right: 240px;
+}
+
+footer {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
 }
 
 ul.header-links {
@@ -68,12 +76,70 @@ ul.header-links {
 .hero-button {
     display: flex;
     background-color: #3882f6;
-    width: 160px;
+    width: 140px;
     border: none;
-    padding: 10px 16px;
+    padding: 10px;
     justify-content: center;
     align-items: center;
     font-size: 18px;
     font-weight: 600;
     border-radius: 8px;
+}
+
+.container-1 {
+    display: flex;
+    background-color: white;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding: 40px 400px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.information {
+    display: flex;
+    font-size: 18px;
+    font-weight: 100;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.item-1, .item-2, .item-3, .item-4 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-image {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.container-2 {
+    padding: 80px 400px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote-citation {
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    justify-content: flex-end;
+    line-height: 24px;
+    padding-right: 40px;
+    padding-top: -40px;
+    margin-top: -40px;
 }
